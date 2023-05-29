@@ -63,3 +63,59 @@ top: 338px;
 background: url(HEINZLOGO.png);
 border: 3px solid #000000;
 }
+
+.empresa-1 {
+
+background: #0A4B11;
+border-radius: 30px;
+width: 219px;
+height: 44px;
+left: 128px;
+top: 593px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.empresa-2 {
+background: #0A4B11;
+border-radius: 30px;
+width: 82px;
+height: 44px;
+left: 571px;
+top: 593px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 44px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.empresa-3 {
+background: #0A4B11;
+border-radius: 30px;
+width: 110px;
+height: 39px;
+left: 1012px;
+top: 593px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 44px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
