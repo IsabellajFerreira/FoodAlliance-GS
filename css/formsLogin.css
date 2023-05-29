@@ -79,3 +79,34 @@ body{
     position: absolute;
     border-radius: 10px;
 }
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #707070;
+}
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+.input-box label{
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.input-box input::placeholder{
+    color: #000000;
+}
