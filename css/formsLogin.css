@@ -110,6 +110,13 @@ body{
 .input-box input::placeholder{
     color: #000000;
 }
+.cadastro a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #000000;
+}
+
 .continue-button button{
     width: 100%;
     margin-top: 0.5rem;
