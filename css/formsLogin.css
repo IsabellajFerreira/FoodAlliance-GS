@@ -46,3 +46,36 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.senha-button{
+    display: flex;
+    align-items: center;    
+}
+
+.senha-button button{
+    border: none;
+    background-color: #008905;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+.senha-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.senha-button button:hover{
+    background-color: #02ae19;
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #4feb54;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
