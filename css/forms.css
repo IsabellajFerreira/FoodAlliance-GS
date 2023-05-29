@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.office {
+box-sizing: border-box;
+margin-left: 113px;
+margin-top: 338px;
+margin-bottom: 1973px;
+margin-right: 977px;
+
+}
+
+.img-1 {
+box-sizing: border-box;
+width: 350px;
+height: 216px;
+left: 113px;
+top: 338px;
+border: 3px solid #000000;
+}
+
+.fiap {
+box-sizing: border-box;
+margin-left: -700px;
+margin-top: 338px;
+margin-bottom: 1973px;
+margin-right: 535px;
+left: 555px;
+top: 338px;
+
+}
+
+.img-2 {
+box-sizing: border-box;
+width: 350px;
+height: 216px;
+left: 555px;
+top: 338px;
+
+}
+
+.heinz {
+    box-sizing: border-box;
+    margin-left: -255px;
+    margin-top: 338px;
+    margin-bottom: 1973px;
+    margin-right: 93px;
+    left: 997px;
+    top: 338px;
+    
+}
+
+.img-3 {
+box-sizing: border-box;
+width: 350px;
+height: 216px;
+left: 997px;
+top: 338px;
+
+background: url(HEINZLOGO.png);
+border: 3px solid #000000;
+}
