@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forms.css">
+    <title>Formulário de Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./imagens/logoFormCadastro.svg" alt="Imagem do Cadastro">
+        </div>
+        <div class="form">
+            <form action="/forms.html" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Entrar </h1>
+                    </div>
+                    <div class="senha-button">
+                        <button><a href="#">Esqueceu a senha</a></button>
+                    </div>
+                </div>
+                <div class="input-group">                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>                    
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div> 
+                    <div class="cadastro">
+                        <p><a href="./FormsCadastro.html">Não tem uma conta? Cadastre-se</a></p>
+                    </div>                   
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
