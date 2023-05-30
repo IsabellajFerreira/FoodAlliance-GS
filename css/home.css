@@ -21,7 +21,7 @@ body{
 .cabecalho-home h1{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 45px;
+    font-size: 3.4rem;
     position: absolute;
     top: 50px;
     left: 70px;
@@ -30,8 +30,8 @@ body{
 .cabecalho-home p{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    width: 700px;
+    font-size: 3rem;
+    width: 50%;
     position: absolute;
     top: 250px;
     left: 70px;
@@ -44,8 +44,9 @@ body{
     justify-content: space-around;
     align-items: center;
     display: flex;
-    width: 1155px;
-    height: 200px;
+    width: 80%;
+    max-width: 1200px;
+    height: 20%;
     position: absolute;
     left: 120px;
     top: 740px;
@@ -54,22 +55,22 @@ body{
 }
 
 .notificacoes-email p{
-    font-size: 28px;
+    font-size: 1.9rem;
     color: #35743B;
-    width: 527px;
-    height: 69px;
+    width: 50%;
+    height: 40%;
     font-family: 'Inter', sans-serif;
 }
 
 .notificacoes-email input{
     border-radius: 5px;
-    width: 335px;
-    height: 60px;
+    width: 26%;
+    height: 30%;
 }
 
 .notificacoes-email button{
-    width: 165px;
-    height: 60px;
+    width: 16%;
+    height: 30%;
     background-color: #FFFFFF;
     font-size: 24px;
     border-radius: 0 30px 0 30px;
