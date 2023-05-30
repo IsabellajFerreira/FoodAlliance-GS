@@ -1,29 +1,32 @@
 
-* {
-    margin: auto;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-header {
+body{
+    margin: 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-
-header>div {
-    margin-left: 1460px;
-    margin-top: 70px;
-}
-
-header>p {
-    margin-top: 80px;
-    font-size: 29px;
-    font-weight: bold;
+.conteudos {
+    width: 1234px;
+    height: 1812px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: 320px;
+    margin-right: 180px;
 }
 
 .container-1 {
     display: flex;
     flex-direction: row;
-
 }
 
 .container-2 {
@@ -37,15 +40,17 @@ header>p {
     flex-direction: row;
     margin-top: -2200px;
     margin-bottom: 0;
+    height: 1000px;
 }
 
 .office {
     box-sizing: border-box;
-    margin-left: 125px;
+    margin-left: -50px;
     margin-top: 338px;
     margin-bottom: 1973px;
     margin-right: 977px;
-
+    width: 250px;
+    height: 446px;
 }
 
 .img-1 {
@@ -59,12 +64,15 @@ header>p {
 
 .fiap {
     box-sizing: border-box;
-    margin-left: -700px;
+    margin-left: -840px;
     margin-top: 338px;
     margin-bottom: 1973px;
     margin-right: 535px;
     left: 555px;
     top: 338px;
+    width: 250px;
+    height: 446px;
+   
 
 }
 
@@ -79,12 +87,14 @@ header>p {
 
 .heinz {
     box-sizing: border-box;
-    margin-left: -255px;
+    margin-left: -400px;
     margin-top: 338px;
     margin-bottom: 1973px;
     margin-right: 93px;
     left: 997px;
     top: 338px;
+    width: 350px;
+    height: 546px;
     
 }
 
