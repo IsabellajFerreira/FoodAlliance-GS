@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.cabecalho-img-home2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-img-home2 p{
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho-nav-home2{
+    margin-bottom: 5%;
+}
+
+.cabecalho-nav-home2 nav{
+    background-color: #0A4B11;
+    padding: 1.5% 0;
+}
+
+.cabecalho-nav-home2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.cabecalho-nav-home2 li{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo-home2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.conteudo-home2 h2{
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #0A4B11;
+    margin-bottom: 2%;
+}
+
+.conteudo-home2 p{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    max-width: 70%;
+    margin-bottom: 1%;
+}
+
+.doacao-home2{
+    background-color: #0A4B11;
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2% 10% 2%;
+}
+
+.doacao-home2 p{
+    color: #ffffff;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+}
+
+.doacao-home2 button{
+    border: solid 2px #ffffff;
+    background-color: #0A4B11;
+    font-family: 'Inter', sans-serif;
+    padding: 0.5% 3.5%;
+    font-size: 2rem;
+    font-style: medium;
+    color: #ffffff;
+}
+
+.mapa-home2{
+    display: flex;
+    background-color: #0A4B11;
+    margin: 0 2% 10% 2%;
+}
+
+.mapa-horta-home2{
+    flex: 0 0 auto;
+}
+
+.mapa-horta-home2 img{ 
+    width: 60vw;
+    height: 50vh;
+    border: 15px solid #0A4B11 ;
+}
+
+.texto-horta-home2{
+    text-align: center;
+    flex: 1;
+}
+
+.texto-horta-home2 h2{   
+    font-size: 2.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 5% 0 10% 0;
+}
+
+.texto-horta-home2 p{
+    font-size: 2rem;
+    margin: auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    width: 70%;
+}
+
+.produtos-home2{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.produto-microsoft img{
+    width: 28vw;
+    height: 25vh;
+    border: 5.5px solid;
+}
+
+.produto-microsoft h3{
+    display: inline-block;
+    border-radius: 40%;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: #ffffff;
+    background-color: #0A4B11;
+}
+
+.produto-microsoft p{
+     font-size: 1.7rem;  
+     font-family: 'Inter', sans-serif;
+}
+
+.produto-fiap img{
+    width: 28vw;
+    height: 25vh;
+}
+
+.produto-fiap h3{
+    display: inline-block;
+    border-radius: 40%;
+    font-size: 2.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: #ffffff;
+    background-color: #0A4B11;
+}
+
+.produto-fiap p{
+    font-size: 1.7rem;  
+    font-family: 'Inter', sans-serif;
+}
+
+.produto-heinz img{
+    width: 28vw;
+    height: 25vh;
+    border: 5.5px solid;
+}
+
+.produto-heinz h3{
+    display: inline-block;
+    border-radius: 40%;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: #ffffff;
+    background-color: #0A4B11;
+}
+
+.produto-heinz p{
+    font-size: 1.7rem;  
+    font-family: 'Inter', sans-serif;
+}
+
+.botao-ver-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-ver-mais button{
+    background-color: #60BE4D;
+    border: solid 5px #35743B;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    padding: 1% 4%;
+}
