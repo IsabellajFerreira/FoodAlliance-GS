@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formsCadastro.css">
+    <title>Formulário de cadastro </title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./imagens/cadastroOng.png" alt="Imagem do Cadastro">
+        </div>
+        <div class="form">
+            <form action="/forms.html" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se </h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="./FormsLogin.html">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ</label>
+                        <input id="cnpj" type="text" name="cnpj" placeholder="Digite seu CNPJ" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="telefone1">Telefone</label>
+                        <input id="telefone1" type="text" name="telefone1" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="telefone2">Celular</label>
+                        <input id="telefone2" type="text" name="telefone2" placeholder="(xx) xxxx-xxxx" >
+                    </div>
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" name="cep" placeholder="Digite seu CEP" required>
+                    </div>  
+                    <div class="input-box">
+                        <label for="numero">Número</label>
+                        <input id="numero" type="number" name="numero" placeholder="Digite o número" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="complemento">Complemento</label>
+                        <input id="complemento" type="text" name="complemento" placeholder="Digite o complemento">
+                    </div> 
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>                     
+                    <div class="input-box-descricao">
+                        <label for="descricao">Descrição</label>
+                        <input id="descricao" type="text" name="descricao" placeholder="Digite sobre sua ONG">
+                    </div>                   
+                </div>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
