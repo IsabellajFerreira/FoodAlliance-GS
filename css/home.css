@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+}
+
+.cabecalho-home{
+    background-image: url('../imagens/arte2-cabecalho.png');
+    width: 100%;
+    height: 835px;
+    margin-bottom: 300px;
+}
+
+.cabecalho-home h1{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.cabecalho-home p{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    width: 700px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+
+.notificacoes-email{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 1155px;
+    height: 200px;
+    position: absolute;
+    left: 120px;
+    top: 740px;
+    box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+
+}
+
+.notificacoes-email p{
+    font-size: 28px;
+    color: #35743B;
+    width: 527px;
+    height: 69px;
+    font-family: 'Inter', sans-serif;
+}
+
+.notificacoes-email input{
+    border-radius: 5px;
+    width: 335px;
+    height: 60px;
+}
+
+.notificacoes-email button{
+    width: 165px;
+    height: 60px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 0 30px 0 30px;
+    border: solid 3px #0A4B11;
+    border-color: #0A4B11;
+    color: #0A4B11;
+}
+
+.container-home{
+    display: flex;
+    justify-content: center;
+}
+
+.text-conteudo-home{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 8%;
+}
+
+.text-conteudo-home h3{
+    font-size: 2.3rem;
+    color: #0A4B11;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+
+.text-conteudo-home h6{
+    font-size: 1.8rem;
+    color: #0A4B11;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 60px;
+}
+
+.text-conteudo-home p{
+    font-size: 1.6rem;
+    color: #35743B;
+    font-family: 'Inter', sans-serif;
+    width: 564px;
+    height: 234px;
+    margin-bottom: 80px;
+}
+
+.text-conteudo-home button{
+    width: 20vw;
+    height: 8vh;
+    background-color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border: solid 3px #0A4B11;
+    border-radius: 0 30px 0 30px;
+    color: #0A4B11;
+
+}
+
+.container-ong-home{
+    display: flex;
+    justify-content: center;
+}
+
+.text-conteudo-ong-home{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+
+.text-conteudo-ong-home h3{
+    font-size: 2.3rem;
+    color: #0A4B11;
+    margin-left: 47%;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 10px;
+}
+
+.text-conteudo-ong-home h6{
+    font-size: 1.8rem;
+    color: #0A4B11;
+    margin-left: 47%;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 40px;
+}
+
+.text-conteudo-ong-home p{
+    font-size: 1.5rem;
+    color: #35743B;
+    text-align: start;
+    margin-left: 47%;
+    margin-bottom: 5%;
+    font-family: 'Inter', sans-serif;
+    width: 564px;
+    height: 234px;
+    margin-bottom: 7%;
+}
+
+.text-conteudo-ong-home button{
+    width: 20vw;
+    height: 8vh;
+    background-color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-left: 47%;
+    border: solid 3px #0A4B11;
+    border-radius: 0 30px 0 30px;
+    color: #0A4B11;
+
+}
+
+.quadrado-branco-home{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 25vw;
+    height: 54vh;
+    box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+    margin-bottom: 8%;
+}
+
+.quadrado-branco-home img{
+    margin: auto;
+    border-radius: 5px;
+    width: 22vw;
+    height: 49vh;
+}
+
+.anuncie-produto-home{
+    display: flex;
+    background-image:linear-gradient(to right, #1B8855, #37AC69, #71E092);
+    width: 100%;
+    height: 386px;
+    margin-bottom: 150px;
+}
+
+.anuncie-produto-home h2{
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parceiras-home{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.parceiras-home h2{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: #0A4B11;
+}
+
+.beneficios-home{
+    display: flex;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 0 100px 0 100px;
+    width: 1000px;
+    height: 300px;
+    box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+    margin-bottom: 150px;
+}
+
+.beneficios-home h2{
+    margin: auto;
+    font-size: 40px;
+    color: #0A4B11;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+/*
+.img-chat-home{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 999;
+}
+*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-image:linear-gradient(to bottom, #1B8855, #ADFAB6);
+    height: 322px;
+}
+
+footer p{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    width: 200px;
+}
