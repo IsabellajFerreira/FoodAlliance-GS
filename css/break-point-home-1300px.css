@@ -1,0 +1,138 @@
+@media(max-width:1300px){
+
+    .notificacoes-email{
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        width: 80%;
+        max-width: 1200px;
+        height: 20%;
+        position: absolute;
+        left: 120px;
+        top: 740px;
+        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+    
+    }
+
+    .notificacoes-email p{
+        font-size: 1.4rem;
+        color: #35743B;
+        width: 45%;
+        height: 35%;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .notificacoes-email input{
+        border-radius: 5px;
+        width: 23%;
+        height: 27%;
+    }
+    
+    .notificacoes-email button{
+        width: 14%;
+        height: 28%;
+        background-color: #FFFFFF;
+        font-size: 1.3rem;
+        border-radius: 0 30px 0 30px;
+        border: solid 3px #0A4B11;
+        border-color: #0A4B11;
+        color: #0A4B11;
+    }
+    
+    .text-conteudo-home{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 6%;
+    }
+    
+    .text-conteudo-home h3{
+        font-size: 2rem;
+        color: #0A4B11;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 8px;
+    }
+    
+    .text-conteudo-home h6{
+        font-size: 1.5rem;
+        color: #0A4B11;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    .text-conteudo-home p{
+        font-size: 1.3rem;
+        color: #35743B;
+        font-family: 'Inter', sans-serif;
+        width: 70%;
+        height: 35%;
+        margin-bottom: 70px;
+    }
+    
+    .text-conteudo-home button{
+        width: 18vw;
+        height: 6vh;
+        background-color: #FFFFFF;
+        font-size: 2rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        border: solid 3px #0A4B11;
+        border-radius: 0 30px 0 30px;
+        color: #0A4B11;
+    
+    }
+    
+    .text-conteudo-ong-home{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 6%;
+    }
+    
+    .text-conteudo-ong-home h3{
+        font-size: 2rem;
+        color: #0A4B11;
+        margin-left: 30%;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 8px;
+    }
+    
+    .text-conteudo-ong-home h6{
+        font-size: 1.6rem;
+        color: #0A4B11;
+        margin-left: 30%;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 1%;
+    }
+    
+    .text-conteudo-ong-home p{
+        font-size: 1.2rem;
+        color: #35743B;
+        text-align: start;
+        margin-left: 30%;
+        margin-bottom: 4%;
+        font-family: 'Inter', sans-serif;
+        width: 70%;
+        height: 35%;
+        margin-bottom: 7%;
+    }
+    
+    .text-conteudo-ong-home button{
+        width: 18vw;
+        height: 6vh;
+        background-color: #FFFFFF;
+        font-size: 2rem;
+        margin-left: 30%;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        border: solid 3px #0A4B11;
+        border-radius: 0 30px 0 30px;
+        color: #0A4B11;
+    
+    }
+}

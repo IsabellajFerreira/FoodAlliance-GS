@@ -16,9 +16,20 @@ body{
     align-items: center;
 }
 
-.cabecalho-img-home2 p{
-    font-size: 2rem;
+.coin-top-home2{
+    display: flex;
+}
+
+.coin-top-home2 img{
+    width: 4.5vw;
+    height: 4.5vh;
+    margin-right: 3%;
+}
+
+.coin-top-home2 p{
+    font-size: 2.5rem;
     font-family: 'Inter', sans-serif;
+    margin-right: 15%;
 }
 
 .cabecalho-nav-home2{
@@ -106,7 +117,7 @@ body{
 
 .mapa-horta-home2 img{ 
     width: 60vw;
-    height: 50vh;
+    height: 55vh;
     border: 15px solid #0A4B11 ;
 }
 
@@ -120,7 +131,7 @@ body{
     color: #ffffff;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    margin: 5% 0 10% 0;
+    margin: 5% 0 7% 0;
 }
 
 .texto-horta-home2 p{
@@ -140,13 +151,13 @@ body{
     margin-bottom: 8%;
 }
 
-.produto-microsoft img{
+.descricao-microsoft-home2 img{
     width: 28vw;
     height: 25vh;
     border: 5.5px solid;
 }
 
-.produto-microsoft h3{
+.descricao-microsoft-home2 h3{
     display: inline-block;
     border-radius: 40%;
     font-family: 'Inter', sans-serif;
@@ -157,17 +168,33 @@ body{
     background-color: #0A4B11;
 }
 
-.produto-microsoft p{
+.descricao-microsoft-home2 p{
      font-size: 1.7rem;  
      font-family: 'Inter', sans-serif;
+     margin-bottom: 4%;
 }
 
-.produto-fiap img{
+.preco-microsoft-home2{
+    display: flex;
+}
+
+.preco-microsoft-home2 img{
+    width: 2.8vw;
+    height: 2.8vh;
+    margin-right: 1%;
+}
+
+.preco-microsoft-home2 p{
+    font-size: 1.5rem;  
+    font-family: 'Inter', sans-serif;
+}
+
+.descricao-fiap-home2 img{
     width: 28vw;
     height: 25vh;
 }
 
-.produto-fiap h3{
+.descricao-fiap-home2 h3{
     display: inline-block;
     border-radius: 40%;
     font-size: 2.2rem;
@@ -178,18 +205,34 @@ body{
     background-color: #0A4B11;
 }
 
-.produto-fiap p{
+.descricao-fiap-home2 p{
     font-size: 1.7rem;  
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 4%;
+}
+
+.preco-fiap-home2{
+    display: flex;
+}
+
+.preco-fiap-home2 img{
+    width: 2.8vw;
+    height: 2.8vh;
+    margin-right: 1%;
+}
+
+.preco-fiap-home2 p{
+    font-size: 1.5rem;  
     font-family: 'Inter', sans-serif;
 }
 
-.produto-heinz img{
+.descricao-heinz-home2 img{
     width: 28vw;
     height: 25vh;
     border: 5.5px solid;
 }
 
-.produto-heinz h3{
+.descricao-heinz-home2 h3{
     display: inline-block;
     border-radius: 40%;
     font-family: 'Inter', sans-serif;
@@ -200,8 +243,24 @@ body{
     background-color: #0A4B11;
 }
 
-.produto-heinz p{
+.descricao-heinz-home2 p{
     font-size: 1.7rem;  
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 11%;
+}
+
+.preco-heinz-home2{
+    display: flex;
+}
+
+.preco-heinz-home2 img{
+    width: 2.8vw;
+    height: 2.8vh;
+    margin-right: 1%;
+}
+
+.preco-heinz-home2 p{
+    font-size: 1.5rem;  
     font-family: 'Inter', sans-serif;
 }
 
@@ -209,6 +268,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .botao-ver-mais button{
