@@ -1,19 +1,9 @@
-@media(max-width:1000px){
+@media(max-width:768px){
 
-
-    .cabecalho-home h1{
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3.1rem;
-        position: absolute;
-        top: 50px;
-        left: 70px;
-    }
-    
     .cabecalho-home p{
         color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
-        font-size: 2.7rem;
+        font-size: 2.2rem;
         width: 50%;
         position: absolute;
         top: 250px;
@@ -21,12 +11,6 @@
     }
 
     .notificacoes-email{
-        background-color: #ffffff;
-        border-radius: 30px;
-        margin: auto;
-        justify-content: space-around;
-        align-items: center;
-        display: flex;
         width: 75%;
         max-width: 1200px;
         height: 15%;
@@ -40,22 +24,22 @@
     .notificacoes-email p{
         font-size: 1.1rem;
         color: #35743B;
-        width: 42%;
+        width: 45%;
         height: 32%;
         font-family: 'Inter', sans-serif;
     }
     
     .notificacoes-email input{
         border-radius: 5px;
-        width: 21%;
+        width: 28%;
         height: 25%;
     }
     
     .notificacoes-email button{
-        width: 14%;
-        height: 28%;
+        width: 12%;
+        height: 26%;
         background-color: #FFFFFF;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         border-radius: 0 30px 0 30px;
         border: solid 3px #0A4B11;
         border-color: #0A4B11;
@@ -73,23 +57,23 @@
         font-size: 1.2rem;
         color: #0A4B11;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 45px;
+        padding-bottom: 7%;
     }
     
     .text-conteudo-home p{
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #35743B;
         font-family: 'Inter', sans-serif;
-        width:85%;
+        width:90%;
         height: 35%;
         margin-bottom: 5%;
     }
     
     .text-conteudo-home button{
-        width: 14vw;
-        height: 4vh;
+        width: 13vw;
+        height: 3.5vh;
         background-color: #FFFFFF;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
@@ -109,7 +93,7 @@
     .text-conteudo-ong-home h3{
         font-size: 1.8rem;
         color: #0A4B11;
-        margin-left: 25%;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
         padding-bottom: 6.5px;
     }
@@ -117,16 +101,16 @@
     .text-conteudo-ong-home h6{
         font-size: 1.2rem;
         color: #0A4B11;
-        margin-left: 25%;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
         padding-bottom: 2%;
     }
     
     .text-conteudo-ong-home p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #35743B;
         text-align: start;
-        margin-left: 25%;
+        margin-left: 15%;
         margin-bottom: 4%;
         font-family: 'Inter', sans-serif;
         width: 93%;
@@ -135,11 +119,11 @@
     }
     
     .text-conteudo-ong-home button{
-        width: 14vw;
-        height: 4vh;
+        width: 13vw;
+        height: 3.5vh;
         background-color: #FFFFFF;
-        font-size: 1rem;
-        margin-left: 25%;
+        font-size: 0.8rem;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
@@ -152,7 +136,7 @@
         background-color: #ffffff;
         border-radius: 30px;
         width: 27vw;
-        height: 45vh;
+        height: 37vh;
         box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
         margin-bottom: 5%;
     }
@@ -161,6 +145,35 @@
         margin: auto;
         border-radius: 5px;
         width: 24vw;
-        height: 40vh;
+        height: 33vh;
+    }
+
+    .anuncie-produto-home{
+        height: 300px;
+        margin-bottom: 120px;
+    }
+    
+    .anuncie-produto-home h2{
+        font-size: 2.3rem; 
+    }
+
+    .parceiras-home h2{
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        color: #0A4B11;
+    }
+
+    .beneficios-home{
+        width: 90%;
+        height: 230px;
+        margin-bottom: 150px;
+    }
+    
+    .beneficios-home h2{
+        margin: auto;
+        font-size: 2rem;
+        color: #0A4B11;
     }
 }
