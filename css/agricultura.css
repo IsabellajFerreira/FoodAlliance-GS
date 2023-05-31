@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fauna+One&family=Inter:wght@500&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho img{
+    display: flex;
+    width: 10.4167vw;
+    margin: 1.3889vh auto 1.3889vh auto;
+}
+
+.inicio .image1{
+    width: 100vw;
+}
+
+.title{
+    display: flex;
+    position: absolute;
+    font-size: 10vw;
+    margin-top: 50vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #614501;
+    font-weight: 400;
+    font-family: 'Fauna One';
+}
+
+.quest{
+    position: absolute;
+    margin-top: 90vw;
+    margin-left: 50vw;
+    font-size: 50px;
+    color: white;
+    font-family: 'inter';
+    font-weight: bold;
+}
+
+.txt{
+    position: absolute;
+    margin-top: 100vw;
+    margin-left: 50vw;
+    margin-right: 10vw;
+    font-size: 35px;
+    color: white;
+    font-family: 'inter';
+    font-weight: bold;
+}
+
+.agriOrganica h1{
+    float: left;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 4vw;
+    width: 45vw;
+    margin-top: 15vh;
+    margin-left: 5vw;
+}
+
+.agriOrganica p{
+    float: left;
+    font-family: 'Source Sans Pro';
+    font-size: 2.8vw;
+    width: 45vw;
+    margin-top: 8vh;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.imgorganica{
+    float: right;
+    width: 60vh;
+}
+
+.agriConservacao{
+    margin-top: 90vh;
+    width: 100vw;
+    height: 52vh;
+}
+
+.imgConservacao{
+    float: left;
+    width: 55vw;
+    margin-top: 5vw;
+}
+
+.agriConservacao h1{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 4vw;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 50vw;
+}
+
+.agriConservacao p{
+    position: absolute;
+    font-family: 'Source Sans Pro';
+    font-size: 2.8vw;
+    text-align: center;
+    width: 45vw;
+    margin-top: 18vw;
+    margin-left: 50vw;
+   
+}
+
+.agriUrbana{
+    margin-top: 18vw;
+}
+
+.agriUrbana img{
+    margin-top: 5vw;
+    float: right;
+    height: 45vw;
+    width: 45vw;
+}
+
+.agriUrbana h1{
+    display: flex;
+    margin-top: 20vw;
+    margin-left: 18vw;
+    position: absolute;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.agriUrbana p{
+    display: flex;
+    margin-top: 30vw;
+    margin-left: 10vw;
+    position: absolute;
+    font-family: 'Source Sans Pro';
+    font-size: 2.8vw;
+    text-align: center;
+    width: 45vw;
+}
+
+.explicacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 80vw;
+    width: 70vw;
+}
+
+.explicacao h1{
+    font-family: 'Source Sans Pro';
+    font-size: 5vw;
+}
+
+.explicacao p{
+    font-family: 'inter';
+    font-size: 2vw;
+    margin-top: 3vw;
+}
+
+.rodapé{
+    margin-top: 5vw;
+    text-align: center;
+    background-color: #A88D6F;
+    height: 15vw;
+}
