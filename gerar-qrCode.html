@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/gerar-qrCode.css">
     <title>Gerar QR Code</title>
 </head>
 <body>
-    <header><img src="./imagens/logoFoodAlliance.png" alt=""></header>
+    <header><img src="./imagens/logoFoodAlliance.png" alt="FoodAlliance-logo"></header>
     <div class="texto">
-        <p>Gere um QR Code ou envie as moedas direto para o CPF do doador.</p>
+        <p>Gere um <i>QR Code</i> ou envie as moedas direto para o <i>CPF</i> do doador.</p>
     </div>
     <div class="conteudo">
         <form action="" method="post">
@@ -31,12 +32,17 @@
                 <label for="kg">KG</label>
                 <input type="number" id="kg" name="kg" placeholder="Quantidade em Kg">
         </div>
-        <button class="gerar">Gerar</button>
-        <button class="doador">Conta do doador</button>
+        <div class="botao">
+        <button class="gerar"><p>Gerar</p></button>
+        <button class="doador"><p>Conta do doador</p></button>
+        </div>
         </form>
     </div>
-    <div class="background"></div>
-    <div class="qr-code"><img src="./imagens/qr-code.png" alt="QR-Code"></div>
-    <div class="carregando"></div>
+    <div class="background">
+        <div class="qr-code"><img src="./imagens/qr-code.png" alt="QR-Code"></div> 
+        <div class="carregando"></div>
+    </div>
+    
+   
 </body>
 </html>
