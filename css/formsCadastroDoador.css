@@ -14,7 +14,6 @@ body{
     align-items: center;
     background: #90BF95;
 }
-
 .container{
     width: 80%;
     height: 80vh;
@@ -46,39 +45,38 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
-.senha-button{
+.login-button{
     display: flex;
     align-items: center;    
 }
 
-.senha-button button{
+.login-button button{
     border: none;
     background-color: #008905;
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;    
 }
-.senha-button button a{
+.login-button button a{
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
     color: #ffffff;
 }
-
-.senha-button button:hover{
+.login-button button:hover{
     background-color: #02ae19;
 }
 .form-header h1::after{
     content: '';
     display: block;
-    width: 3rem;
+    width: 5rem;
     height: 0.3rem;
     background-color: #4feb54;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
 }
+
 .input-group{
     display: flex;
     flex-wrap: wrap;
@@ -91,10 +89,9 @@ body{
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
-
 .input-box input{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
+    margin: 0.4rem 0;
+    padding: 0.7rem 1rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #707070;
@@ -110,11 +107,12 @@ body{
 .input-box input::placeholder{
     color: #000000;
 }
-
-
+.input-box-descricao input::placeholder{
+    color: #000000;
+}
 .continue-button button{
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     border: none;
     background-color: #008905;
     padding: 0.62rem;
@@ -130,3 +128,4 @@ body{
     font-weight: 500;
     color: #ffffff;
 }
+
