@@ -1,66 +1,4 @@
-@media(max-width:1000px){
-
-
-    .cabecalho-home h1{
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3.1rem;
-        position: absolute;
-        top: 50px;
-        left: 70px;
-    }
-    
-    .cabecalho-home p{
-        color: #FFFFFF;
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.7rem;
-        width: 50%;
-        position: absolute;
-        top: 250px;
-        left: 70px;
-    }
-
-    .notificacoes-email{
-        background-color: #ffffff;
-        border-radius: 30px;
-        margin: auto;
-        justify-content: space-around;
-        align-items: center;
-        display: flex;
-        width: 75%;
-        max-width: 1200px;
-        height: 15%;
-        position: absolute;
-        left: 120px;
-        top: 740px;
-        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
-    
-    }
-
-    .notificacoes-email p{
-        font-size: 1.1rem;
-        color: #35743B;
-        width: 42%;
-        height: 32%;
-        font-family: 'Inter', sans-serif;
-    }
-    
-    .notificacoes-email input{
-        border-radius: 5px;
-        width: 21%;
-        height: 25%;
-    }
-    
-    .notificacoes-email button{
-        width: 14%;
-        height: 28%;
-        background-color: #FFFFFF;
-        font-size: 1.1rem;
-        border-radius: 0 30px 0 30px;
-        border: solid 3px #0A4B11;
-        border-color: #0A4B11;
-        color: #0A4B11;
-    }
+@media(max-width:1215px){
 
     .text-conteudo-home h3{
         font-size: 1.8rem;
@@ -89,7 +27,7 @@
         width: 16vw;
         height: 5vh;
         background-color: #FFFFFF;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
@@ -119,7 +57,7 @@
         color: #0A4B11;
         margin-left: 25%;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 2%;
+        padding-bottom: 45px;
     }
     
     .text-conteudo-ong-home p{
@@ -129,7 +67,7 @@
         margin-left: 25%;
         margin-bottom: 4%;
         font-family: 'Inter', sans-serif;
-        width: 90%;
+        width: 80%;
         height: 35%;
         margin-bottom: 5%;
     }
@@ -138,7 +76,7 @@
         width: 16vw;
         height: 5vh;
         background-color: #FFFFFF;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-left: 25%;
         font-family: 'Inter', sans-serif;
         font-weight: bold;

@@ -7,7 +7,7 @@
         justify-content: space-around;
         align-items: center;
         display: flex;
-        width: 50%;
+        width: 80%;
         max-width: 1200px;
         height: 20%;
         position: absolute;
@@ -97,7 +97,7 @@
     .text-conteudo-ong-home h3{
         font-size: 2rem;
         color: #0A4B11;
-        margin-left: 43%;
+        margin-left: 30%;
         font-family: 'Inter', sans-serif;
         padding-bottom: 8px;
     }
@@ -105,16 +105,16 @@
     .text-conteudo-ong-home h6{
         font-size: 1.6rem;
         color: #0A4B11;
-        margin-left: 47%;
+        margin-left: 30%;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 35px;
+        padding-bottom: 1%;
     }
     
     .text-conteudo-ong-home p{
         font-size: 1.2rem;
         color: #35743B;
         text-align: start;
-        margin-left: 45%;
+        margin-left: 30%;
         margin-bottom: 4%;
         font-family: 'Inter', sans-serif;
         width: 70%;
@@ -127,6 +127,7 @@
         height: 6vh;
         background-color: #FFFFFF;
         font-size: 2rem;
+        margin-left: 30%;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
