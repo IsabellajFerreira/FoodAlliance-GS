@@ -128,6 +128,10 @@ body{
     color: #0A4B11;
 
 }
+.text-conteudo-home button a, .text-conteudo-ong-home button a{
+    color: #000000;
+    text-decoration: none; 
+}
 
 .container-ong-home{
     display: flex;
