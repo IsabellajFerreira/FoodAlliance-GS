@@ -117,7 +117,7 @@ body{
 
 .mapa-horta-home2 img{ 
     width: 60vw;
-    height: 50vh;
+    height: 55vh;
     border: 15px solid #0A4B11 ;
 }
 
@@ -131,7 +131,7 @@ body{
     color: #ffffff;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    margin: 5% 0 10% 0;
+    margin: 5% 0 7% 0;
 }
 
 .texto-horta-home2 p{
