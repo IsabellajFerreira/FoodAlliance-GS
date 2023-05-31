@@ -1,67 +1,78 @@
-@media(max-width:768px){
+@media(max-width:550px){
+
+    .cabecalho-home{
+        background-image: url('../imagens/arte2-cabecalho.png');
+        width: 100%;
+        height: 450px;
+        margin-bottom: 120px;
+    }
+
+    .cabecalho-home h1{
+        font-size: 2rem;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
 
     .cabecalho-home p{
         color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         width: 50%;
         position: absolute;
-        top: 250px;
-        left: 70px;
+        top: 115px;
+        left: 50px;
     }
 
     .notificacoes-email{
         width: 75%;
-        max-width: 1200px;
-        height: 15%;
+        height: 10%;
         position: absolute;
-        left: 120px;
-        top: 740px;
-        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
-    
+        left: 55px;
+        top: 410px;
     }
 
     .notificacoes-email p{
-        font-size: 1.1rem;
+        font-size: 0.5rem;
         color: #35743B;
         width: 45%;
-        height: 32%;
+        height: 25%;
         font-family: 'Inter', sans-serif;
     }
     
     .notificacoes-email input{
         border-radius: 5px;
         width: 28%;
-        height: 25%;
+        height: 20%;
     }
     
     .notificacoes-email button{
         width: 12%;
-        height: 25%;
+        height: 20%;
         background-color: #FFFFFF;
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         border-radius: 0 30px 0 30px;
-        border: solid 3px #0A4B11;
+        border: solid 1.5px #0A4B11;
         border-color: #0A4B11;
         color: #0A4B11;
     }
 
     .text-conteudo-home h3{
-        font-size: 1.8rem;
+        font-size: 1rem;
         color: #0A4B11;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 6.5px;
+        padding-bottom: 2%;
     }
     
     .text-conteudo-home h6{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         color: #0A4B11;
         font-family: 'Inter', sans-serif;
         padding-bottom: 7%;
     }
     
     .text-conteudo-home p{
-        font-size: 0.85rem;
+        font-size: 0.5rem;
         color: #35743B;
         font-family: 'Inter', sans-serif;
         width:90%;
@@ -71,12 +82,12 @@
     
     .text-conteudo-home button{
         width: 13vw;
-        height: 3.5vh;
+        height: 2vh;
         background-color: #FFFFFF;
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
-        border: solid 3px #0A4B11;
+        border: solid 1.8px #0A4B11;
         border-radius: 0 30px 0 30px;
         color: #0A4B11;
     
@@ -91,15 +102,15 @@
     }
     
     .text-conteudo-ong-home h3{
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #0A4B11;
         margin-left: 15%;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 6.5px;
+        padding-bottom: 2%;
     }
     
     .text-conteudo-ong-home h6{
-        font-size: 1.2rem;
+        font-size: 0.6rem;
         color: #0A4B11;
         margin-left: 15%;
         font-family: 'Inter', sans-serif;
@@ -107,7 +118,7 @@
     }
     
     .text-conteudo-ong-home p{
-        font-size: 0.7rem;
+        font-size: 0.45rem;
         color: #35743B;
         text-align: start;
         margin-left: 15%;
@@ -120,13 +131,13 @@
     
     .text-conteudo-ong-home button{
         width: 13vw;
-        height: 3.5vh;
+        height: 2vh;
         background-color: #FFFFFF;
-        font-size: 0.8rem;
+        font-size: 0.4rem;
         margin-left: 15%;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
-        border: solid 3px #0A4B11;
+        border: solid 1.8px #0A4B11;
         border-radius: 0 30px 0 30px;
         color: #0A4B11;
     }
@@ -136,7 +147,7 @@
         background-color: #ffffff;
         border-radius: 30px;
         width: 27vw;
-        height: 37vh;
+        height: 29vh;
         box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
         margin-bottom: 5%;
     }
@@ -144,21 +155,21 @@
     .quadrado-branco-home img{
         margin: auto;
         border-radius: 5px;
-        width: 24vw;
-        height: 33vh;
+        width: 23vw;
+        height: 24vh;
     }
 
     .anuncie-produto-home{
-        height: 300px;
+        height: 150px;
         margin-bottom: 120px;
     }
     
     .anuncie-produto-home h2{
-        font-size: 2.3rem; 
+        font-size: 1.5rem; 
     }
 
     .parceiras-home h2{
-        font-size: 2rem;
+        font-size: 1.2rem;
         text-align: left;
         margin-left: 10%;
         font-family: 'Roboto', sans-serif;
@@ -167,13 +178,25 @@
 
     .beneficios-home{
         width: 90%;
-        height: 230px;
+        height: 150px;
         margin-bottom: 150px;
     }
     
     .beneficios-home h2{
         margin: auto;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #0A4B11;
     }
+
+    footer{
+        height: 200px;
+    }
+    
+    footer p{
+        font-size: 1rem;
+        color: #FFFFFF;
+        font-family: 'Inter', sans-serif;
+        width: 100%;
+}
+
 }

@@ -1,6 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
-@import url('./break-point-home-1000px.css'); */
+
 
 *{
     margin: 0;
@@ -129,7 +129,7 @@ body{
 
 }
 .text-conteudo-home button a, .text-conteudo-ong-home button a{
-    color: #000000;
+    color: #0A4B11;
     text-decoration: none; 
 }
 
@@ -256,14 +256,7 @@ body{
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
 }
-/*
-.img-chat-home{
-    position: fixed;
-    bottom: 40px;
-    right: 25px;
-    z-index: 999;
-}
-*/
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -276,4 +269,11 @@ footer p{
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     width: 200px;
+}
+
+.img-chat-home{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 999;
 }

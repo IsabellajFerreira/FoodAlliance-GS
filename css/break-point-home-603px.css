@@ -1,0 +1,190 @@
+@media(max-width:603px){
+
+    .cabecalho-home{
+        background-image: url('../imagens/arte2-cabecalho.png');
+        width: 100%;
+        height: 700px;
+        margin-bottom: 200px;
+    }
+
+    .cabecalho-home h1{
+        font-size: 3.2rem;
+    }
+
+    .cabecalho-home p{
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.2rem;
+        width: 50%;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+    }
+
+    .notificacoes-email{
+        width: 75%;
+        max-width: 1200px;
+        height: 11%;
+        position: absolute;
+        left: 75px;
+        top: 645px;
+        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+    
+    }
+
+    .notificacoes-email p{
+        font-size: 0.8rem;
+        color: #35743B;
+        width: 45%;
+        height: 25%;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .notificacoes-email input{
+        border-radius: 5px;
+        width: 28%;
+        height: 25%;
+    }
+    
+    .notificacoes-email button{
+        width: 12%;
+        height: 26%;
+        background-color: #FFFFFF;
+        font-size: 0.57rem;
+        border-radius: 0 30px 0 30px;
+        border: solid 2px #0A4B11;
+        border-color: #0A4B11;
+        color: #0A4B11;
+    }
+
+    .text-conteudo-home h3{
+        font-size: 1.4rem;
+        color: #0A4B11;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 2%;
+    }
+    
+    .text-conteudo-home h6{
+        font-size: 1rem;
+        color: #0A4B11;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 7%;
+    }
+    
+    .text-conteudo-home p{
+        font-size: 0.7rem;
+        color: #35743B;
+        font-family: 'Inter', sans-serif;
+        width:90%;
+        height: 35%;
+        margin-bottom: 5%;
+    }
+    
+    .text-conteudo-home button{
+        width: 13vw;
+        height: 3vh;
+        background-color: #FFFFFF;
+        font-size: 0.7rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        border: solid 2px #0A4B11;
+        border-radius: 0 30px 0 30px;
+        color: #0A4B11;
+    
+    }
+    
+    .text-conteudo-ong-home{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 6%;
+    }
+    
+    .text-conteudo-ong-home h3{
+        font-size: 1.4rem;
+        color: #0A4B11;
+        margin-left: 15%;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 2%;
+    }
+    
+    .text-conteudo-ong-home h6{
+        font-size: 1rem;
+        color: #0A4B11;
+        margin-left: 15%;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 2%;
+    }
+    
+    .text-conteudo-ong-home p{
+        font-size: 0.65rem;
+        color: #35743B;
+        text-align: start;
+        margin-left: 15%;
+        margin-bottom: 4%;
+        font-family: 'Inter', sans-serif;
+        width: 93%;
+        height: 35%;
+        margin-bottom: 5%;
+    }
+    
+    .text-conteudo-ong-home button{
+        width: 13vw;
+        height: 3vh;
+        background-color: #FFFFFF;
+        font-size: 0.7rem;
+        margin-left: 15%;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        border: solid 2px #0A4B11;
+        border-radius: 0 30px 0 30px;
+        color: #0A4B11;
+    }
+
+    .quadrado-branco-home{
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 27vw;
+        height: 31vh;
+        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+        margin-bottom: 5%;
+    }
+    
+    .quadrado-branco-home img{
+        margin: auto;
+        border-radius: 5px;
+        width: 24vw;
+        height: 27.5vh;
+    }
+
+    .anuncie-produto-home{
+        height: 300px;
+        margin-bottom: 120px;
+    }
+    
+    .anuncie-produto-home h2{
+        font-size: 2.3rem; 
+    }
+
+    .parceiras-home h2{
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        color: #0A4B11;
+    }
+
+    .beneficios-home{
+        width: 90%;
+        height: 230px;
+        margin-bottom: 150px;
+    }
+    
+    .beneficios-home h2{
+        margin: auto;
+        font-size: 2rem;
+        color: #0A4B11;
+    }
+}
