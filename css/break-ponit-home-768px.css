@@ -1,15 +1,19 @@
-@media(max-width:1300px){
+@media(max-width:768px){
+
+    .cabecalho-home p{
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.2rem;
+        width: 50%;
+        position: absolute;
+        top: 250px;
+        left: 70px;
+    }
 
     .notificacoes-email{
-        background-color: #FFFFFF;
-        border-radius: 30px;
-        margin: auto;
-        justify-content: space-around;
-        align-items: center;
-        display: flex;
-        width: 80%;
+        width: 75%;
         max-width: 1200px;
-        height: 20%;
+        height: 15%;
         position: absolute;
         left: 120px;
         top: 740px;
@@ -18,66 +22,58 @@
     }
 
     .notificacoes-email p{
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         color: #35743B;
         width: 45%;
-        height: 35%;
+        height: 32%;
         font-family: 'Inter', sans-serif;
     }
     
     .notificacoes-email input{
         border-radius: 5px;
-        width: 23%;
-        height: 27%;
+        width: 28%;
+        height: 25%;
     }
     
     .notificacoes-email button{
-        width: 14%;
-        height: 28%;
+        width: 12%;
+        height: 25%;
         background-color: #FFFFFF;
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         border-radius: 0 30px 0 30px;
         border: solid 3px #0A4B11;
         border-color: #0A4B11;
         color: #0A4B11;
     }
-    
-    .text-conteudo-home{
-        display: flex;
-        width: 40%;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin-bottom: 6%;
-    }
-    
+
     .text-conteudo-home h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #0A4B11;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 8px;
+        padding-bottom: 6.5px;
     }
     
     .text-conteudo-home h6{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         color: #0A4B11;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 50px;
+        padding-bottom: 7%;
     }
     
     .text-conteudo-home p{
-        font-size: 1.5rem;
+        font-size: 0.85rem;
         color: #35743B;
         font-family: 'Inter', sans-serif;
-        width: 80%;
+        width:90%;
         height: 35%;
-        margin-bottom: 70px;
+        margin-bottom: 5%;
     }
     
     .text-conteudo-home button{
-        width: 18vw;
-        height: 5.5vh;
+        width: 13vw;
+        height: 3.5vh;
         background-color: #FFFFFF;
-        font-size: 2rem;
+        font-size: 0.8rem;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
@@ -95,44 +91,89 @@
     }
     
     .text-conteudo-ong-home h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: #0A4B11;
-        margin-left: 30%;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 8px;
+        padding-bottom: 6.5px;
     }
     
     .text-conteudo-ong-home h6{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         color: #0A4B11;
-        margin-left: 30%;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
-        padding-bottom: 1%;
+        padding-bottom: 2%;
     }
     
     .text-conteudo-ong-home p{
-        font-size: 1.15rem;
+        font-size: 0.7rem;
         color: #35743B;
         text-align: start;
-        margin-left: 30%;
+        margin-left: 15%;
         margin-bottom: 4%;
         font-family: 'Inter', sans-serif;
-        width: 70%;
+        width: 93%;
         height: 35%;
-        margin-bottom: 7%;
+        margin-bottom: 5%;
     }
     
     .text-conteudo-ong-home button{
-        width: 18vw;
-        height: 6vh;
+        width: 13vw;
+        height: 3.5vh;
         background-color: #FFFFFF;
-        font-size: 2rem;
-        margin-left: 30%;
+        font-size: 0.8rem;
+        margin-left: 15%;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         border: solid 3px #0A4B11;
         border-radius: 0 30px 0 30px;
         color: #0A4B11;
+    }
+
+    .quadrado-branco-home{
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 27vw;
+        height: 37vh;
+        box-shadow: 2px 2px 50px 2px rgba(94, 94, 94, 0.527);
+        margin-bottom: 5%;
+    }
     
+    .quadrado-branco-home img{
+        margin: auto;
+        border-radius: 5px;
+        width: 24vw;
+        height: 33vh;
+    }
+
+    .anuncie-produto-home{
+        height: 300px;
+        margin-bottom: 120px;
+    }
+    
+    .anuncie-produto-home h2{
+        font-size: 2.3rem; 
+    }
+
+    .parceiras-home h2{
+        font-size: 2rem;
+        text-align: left;
+        margin-left: 10%;
+        font-family: 'Roboto', sans-serif;
+        color: #0A4B11;
+    }
+
+    .beneficios-home{
+        width: 90%;
+        height: 230px;
+        margin-bottom: 150px;
+    }
+    
+    .beneficios-home h2{
+        margin: auto;
+        font-size: 2rem;
+        color: #0A4B11;
     }
 }
