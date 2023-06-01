@@ -44,7 +44,7 @@ body{
 .cabecalho-nav-home2 ul{
     display: flex;
     justify-content: space-evenly;
-    text-decoration: none;
+    list-style: none;
 }
 
 .cabecalho-nav-home2 li{
