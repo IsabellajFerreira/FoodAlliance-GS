@@ -10,6 +10,30 @@
         left: 70px;
     }
 
+    .cabecalho-home nav{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 25%;
+        padding-left: 70%;
+    }
+    
+    .cabecalho-home ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cabecalho-home li{
+        font-size: 1rem;
+        letter-spacing: 3px;
+        border-radius: 10%;
+        color: #0A4B11;
+        background-color: #ffffffb6;
+        margin-bottom: 20%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
     .notificacoes-email{
         width: 75%;
         max-width: 1200px;
@@ -175,5 +199,13 @@
         margin: auto;
         font-size: 2rem;
         color: #0A4B11;
+    }
+
+    .img-chat-home{
+        position: fixed;
+        bottom: 30px;
+        right: 10px;
+        z-index: 999;
+        transform: scale(0.6);
     }
 }

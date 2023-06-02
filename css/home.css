@@ -38,6 +38,51 @@ body{
     left: 70px;
 }
 
+.menu-hamburguer {
+    display: none;
+    cursor: pointer;
+  }
+
+.menu-hamburguer div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+
+.cabecalho-home nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 42%;
+}
+
+.cabecalho-home ul{
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho-home li{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    border-radius: 10%;
+    color: #0A4B11;
+    background-color: #ffffffb6;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho-home a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cabecalho-home a:hover {
+    opacity: 0.7;
+}
+
 .notificacoes-email{
     background-color: #FFFFFF;
     border-radius: 30px;

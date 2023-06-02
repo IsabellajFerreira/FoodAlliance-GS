@@ -1,5 +1,27 @@
 @media(max-width:1215px){
 
+    .cabecalho-home nav{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 7%;
+        padding-left: 45%;
+    }
+    
+    .cabecalho-home ul{
+        list-style: none;
+        display: flex;
+    }
+    
+    .cabecalho-home li{
+        font-size: 0.87rem;
+        letter-spacing: 3px;
+        border-radius: 10%;
+        color: #0A4B11;
+        background-color: #ffffffb6;
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .text-conteudo-home h3{
         font-size: 1.8rem;
         color: #0A4B11;

@@ -20,6 +20,29 @@
         left: 70px;
     }
 
+    .cabecalho-home nav{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8%;
+        padding-left: 55%;
+    }
+    
+    .cabecalho-home ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cabecalho-home li{
+        font-size: 1rem;
+        letter-spacing: 3px;
+        border-radius: 10%;
+        color: #0A4B11;
+        background-color: #ffffffb6;
+        margin-bottom: 20%;
+        font-family: 'Roboto', sans-serif;
+    }
+
     .notificacoes-email{
         background-color: #ffffff;
         border-radius: 30px;
