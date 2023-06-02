@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/formsLogin.css">
     <link rel="stylesheet" href="./css/breakpointLogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/script.js" defer></script>
     <title>Formulário de Login</title>
 </head>
 <body>
@@ -31,13 +33,14 @@
                     <div class="input-box">
                         <label for="password">Senha</label>
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        
                     </div> 
                     <div class="cadastro">
                         <p><a id="cadastroLink" href="./index.html#doador">Não tem uma conta? Cadastre-se</a></p>
                     </div>              
                 </div>
                 <div class="continue-button">
-                    <button><a href="#">Entrar</a></button>
+                    <button type="submit" id="btnSubmit"><a href="#">Entrar</a></button>
                 </div>
             </form>
         </div>

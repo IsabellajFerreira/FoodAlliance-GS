@@ -70,6 +70,10 @@ body{
 .senha-button button:hover{
     background-color: #02ae19;
 }
+.fa-eye{
+    cursor: pointer;
+}
+
 .form-header h1::after{
     content: '';
     display: block;
