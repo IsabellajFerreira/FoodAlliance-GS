@@ -21,7 +21,7 @@
     display: flex;
     position: absolute;
     font-size: 10vw;
-    margin-top: 50vh;
+    margin-top: 35vw;
     width: 100vw;
     text-align: center;
     align-items: center;
@@ -35,7 +35,7 @@
     position: absolute;
     margin-top: 90vw;
     margin-left: 50vw;
-    font-size: 50px;
+    font-size: 4vw;
     color: white;
     font-family: 'inter';
     font-weight: bold;
@@ -46,111 +46,117 @@
     margin-top: 100vw;
     margin-left: 50vw;
     margin-right: 10vw;
-    font-size: 35px;
+    font-size: 2.5vw;
     color: white;
     font-family: 'inter';
     font-weight: bold;
 }
 
-.agriOrganica h1{
-    float: left;
+/* Agricultura Organica */
+
+.agriOrganica{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.txt-organica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: space-evenly;
+}
+
+.txt-organica h1{
     font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 4vw;
-    width: 45vw;
-    margin-top: 15vh;
-    margin-left: 5vw;
 }
 
-.agriOrganica p{
-    float: left;
+.txt-organica p{
     font-family: 'Source Sans Pro';
     font-size: 2.8vw;
-    width: 45vw;
-    margin-top: 8vh;
-    margin-left: 5vw;
-    text-align: center;
 }
 
-.imgorganica{
+.imagemOrganica> img{
     float: right;
-    width: 60vh;
+    width: 40vw;
 }
+
+/* Agricultura de Conservação */
 
 .agriConservacao{
-    margin-top: 90vh;
-    width: 100vw;
-    height: 52vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vw;
 }
 
-.imgConservacao{
+.imagemConservacao>img{
     float: left;
-    width: 55vw;
-    margin-top: 5vw;
+    height: 40vw;
+}
+
+.txt-conservacao{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro';
 }
 
 .agriConservacao h1{
-    text-align: center;
-    font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 4vw;
-    position: absolute;
-    margin-top: 20vh;
-    margin-left: 50vw;
 }
 
-.agriConservacao p{
-    position: absolute;
-    font-family: 'Source Sans Pro';
+.txt-conservacao> p{
     font-size: 2.8vw;
-    text-align: center;
-    width: 45vw;
-    margin-top: 18vw;
-    margin-left: 50vw;
-   
 }
+
+/* Agricultura Urbana */
+
 
 .agriUrbana{
-    margin-top: 18vw;
-}
-
-.agriUrbana img{
-    margin-top: 5vw;
-    float: right;
-    height: 45vw;
-    width: 45vw;
-}
-
-.agriUrbana h1{
     display: flex;
-    margin-top: 20vw;
-    margin-left: 18vw;
-    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.txt-Urbana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    justify-content: space-evenly;
+}
+
+.txt-Urbana h1{
     font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 4vw;
 }
 
-.agriUrbana p{
-    display: flex;
-    margin-top: 30vw;
-    margin-left: 10vw;
-    position: absolute;
+.txt-Urbana p{
     font-family: 'Source Sans Pro';
     font-size: 2.8vw;
-    text-align: center;
-    width: 45vw;
+}
+
+.imagemUrbana> img{
+    float: right;
+    width: 40vw;
 }
 
 .explicacao{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 80vw;
+    text-align: center;
     width: 70vw;
+    margin-top: 5vw;
+    margin-left: 15.3vw;
 }
 
 .explicacao h1{
