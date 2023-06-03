@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.cabecalho>img{
+    width: 15vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7vw;
+}
+
+.fileira-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.fileira-2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-top: 4vw;
+}
+
+.fileira-3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    margin-top: 4vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vw;
+}
+
+.img{
+    width: 25vw;
+    height: 15vw;
+}
+
+.box>h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #0A4B11;
+    border-radius: 3vw;
+    width: 18vw;
+    height: 4.5vw;
+    font-size: 2.5vw;
+    color: #FFFFFF;
+}
+
+.box>p{
+    width: 24.31vw;
+    height: 9.72vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.35vw;
+    line-height: 2.43vw;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.moeda{
+    display: flex;
+    width: 4vw;
+}
+
+.box>h3 {
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.rodape{
+    background-color: #0A4B11;
+    width: 100vw;
+    height: 20vw;
+    margin-top: 5vw;
+    color: #FFFFFF;
+}

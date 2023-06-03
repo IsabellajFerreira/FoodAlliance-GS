@@ -26,13 +26,11 @@ body {
 section {
     padding-left: 7.04vw; /* Updated */
     padding-top: 28.16vh; /* Updated */
-}
+} 
 
 section > p {
     width: 24.96vw; /* Updated */
     height: 8.88vh; /* Updated */
-    left: 14.64vw; /* Updated */
-    top: 38vh; /* Updated */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -43,9 +41,7 @@ section > p {
 
 section > h1 {
     width: 16.64vw; /* Updated */
-    height: 7.84vh; /* Updated */
-    left: 14.64vw; /* Updated */
-    top: 27.92vh; /* Updated */
+    height: 7.84vh; 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
