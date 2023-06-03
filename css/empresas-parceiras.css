@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #90BF95;
+}
+
+.cabecalho>img{
+    width: 10vw;
+    height: 10vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.53);
+    width: 70vw;
+    height: 50vw;
+}
+
+.txt> h1{
+    width: 18vw; 
+    height: 9vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.2vw;
+    text-transform: uppercase;
+}
+
+.txt>p{
+    width: 24.96vw; 
+    height: 9vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4vw;
+    color: #6B806D;
+}
+
+.par-1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 33vw;
+}
+
+.par-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vw;
+    width: 33vw;
+}
+
+.par-1 img{
+    width: 15vw;
+    height: 15vw;
+}
+
+.par-2 img{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid #000;
+}
