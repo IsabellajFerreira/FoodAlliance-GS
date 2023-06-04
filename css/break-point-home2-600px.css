@@ -21,16 +21,17 @@
     }
 
     .mapa-horta-home2 img{ 
-        width: 40vh;
-        height: 30vh;
+        width: 35vh;
+        height: 26vh;
+        margin: 0;
     }
 
     .texto-horta-home2 h2{   
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     
     .texto-horta-home2 p{
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
 
     .descricao-microsoft-home2 img{
