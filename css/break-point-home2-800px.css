@@ -1,0 +1,84 @@
+@media(max-width:800px){
+
+    .coin-top-home2 img{
+        width: 3.6vw;
+        height: 3.6vh;
+        margin-right: 7%;
+    }
+    
+    .coin-top-home2 p{
+        font-size: 2rem;
+        margin-right: 5%;
+    }
+
+    .cabecalho-nav-home2 li{
+        font-size: 0.7rem;
+    }
+
+    .conteudo-home2 h2{
+        font-size: 2.2rem;
+    }
+    
+    .conteudo-home2 p{
+        font-size: 1.6rem;
+    }
+
+    .doacao-home2 p{
+        font-size: 1.2rem;
+    }
+
+    .doacao-home2 button{
+        font-size: 1.4rem;
+    }
+
+    .mapa-horta-home2 img{ 
+        height: 45vh;
+    }
+
+    .texto-horta-home2 h2{   
+        font-size: 1.6rem;
+    }
+    
+    .texto-horta-home2 p{
+        font-size: 1.3rem;
+    }
+
+    .descricao-microsoft-home2 img{
+        height: 20vh;
+    }
+
+    .descricao-microsoft-home2 h3{
+        font-size: 1.6rem;
+    }
+    
+    .descricao-microsoft-home2 p{
+         font-size: 1rem;  
+         width: 80%;
+    }
+
+    .descricao-fiap-home2 img{
+        height: 20vh;
+    }
+
+    .descricao-fiap-home2 h3{
+        font-size: 1.6rem;
+    }
+    
+    .descricao-fiap-home2 p{
+        font-size: 1rem;
+        width: 80%;  
+    }
+
+    .descricao-heinz-home2 img{
+        height: 20vh;
+    }
+
+    .descricao-heinz-home2 h3{
+        font-size: 1.6rem;
+    }
+    
+    .descricao-heinz-home2 p{
+        font-size: 1rem;
+        width: 80%;  
+    }
+}
