@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/formsLogin.css">
     <link rel="stylesheet" href="./css/breakpointLogin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./js/script.js" defer></script>
+    <script src="./js/ValidacaoLogin.js" defer></script>
     <title>Formulário de Login</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
             <img src="./imagens/login.png" alt="Imagem do Cadastro">
         </div>
         <div class="form">
-            <form action="/forms.html" method="GET">
+            <form action="#" method="POST" name="dados" onSubmit="return enviardados();" >
                 <div class="form-header">
                     <div class="title">
                         <h1>Entrar </h1>
@@ -40,8 +40,10 @@
                     </div>              
                 </div>
                 <div class="continue-button">
-                    <button type="submit" id="btnSubmit"><a href="#">Entrar</a></button>
-                </div>
+                    <button id="btnSubmit" onclick="return enviardados()">
+                        <a href="./home2.html">Entrar</a>
+                    </button>
+                 </div>
             </form>
         </div>
     </div>
