@@ -90,11 +90,7 @@ body{
     flex-direction: column;
     margin-bottom: 1rem;
 }
-.input-box-descricao{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-}
+
 
 .input-box input{
     margin: 0.4rem 0;
@@ -104,7 +100,7 @@ body{
     box-shadow: 1px 1px 6px #707070;
 }
 
-.input-box-descricao input{
+.input-box input#descricao {
     margin: 0.4rem 0;
     padding: 0.7rem 1rem;
     width: 45rem;
