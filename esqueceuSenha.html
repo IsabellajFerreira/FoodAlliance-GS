@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/esqueceuSenha.css">
     <link rel="stylesheet" href="./css/breakpointEsqueceuSenha.css">
+    <script src="./js/ValidacaoLogin.js"></script>
     <title>Formulário de Login</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <img src="./imagens/login.png" alt="Imagem de usuario que esqueceu a senha">
         </div>
         <div class="form">
-            <form action="/forms.html" method="GET">
+            <form action="#" method="POST" name="dados" onSubmit="return enviardados();"  >
                 <div class="form-header">
                     <div class="title">
                         <h1>Esqueceu a senha </h1>
@@ -27,7 +28,9 @@
                     </div>                                 
                 </div>
                 <div class="continue-button">
-                    <button><a href="#">Entrar</a></button>
+                    <button id="btnSubmit" onclick="return enviardados()">
+                        <a href="./home2.html">Entrar</a>
+                    </button>
                 </div>
             </form>
         </div>
