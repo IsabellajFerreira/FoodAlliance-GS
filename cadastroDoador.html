@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/formsCadastroDoador.css">
     <link rel="stylesheet" href="./css/breakpointCadastroDoador.css">    
+    <script src="./js/ValidacaoDoador.js" defer></script>
     <title>Formulário de cadastro </title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <img src="./imagens/cadastroDoador.png" alt="Imagem de cadastro de doadores">
         </div>
         <div class="form">
-            <form action="/forms.html" method="GET">
+            <form action="#" method="POST" name="dados" onSubmit="return enviardados();" >
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -25,8 +26,8 @@
                 </div>
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="name">Nome</label>
-                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text"  placeholder="Digite seu nome" required name=nome/>
                     </div>
                     <div class="input-box">
                         <label for="cpfCnpj">CPF ou CNPJ</label>
@@ -46,13 +47,17 @@
                     </div>
                     <div class="input-box">
                         <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Precisa conter no mínimo 8 caractéres e um em maiusculo e pelo menos um em minusculo." required>
                     </div>                        
                 </div>
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <button id="btnSubmit" onclick="return enviardados()">
+                        <a href="./home2.html">Continuar</a>
+                    </button>
                 </div>
             </form>
+           
         </div>
     </div>
 </body>
