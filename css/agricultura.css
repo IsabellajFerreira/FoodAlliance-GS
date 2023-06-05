@@ -1,3 +1,4 @@
+@import url(./breakpoint-agricultura.css);
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fauna+One&family=Inter:wght@500&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
 
 
@@ -7,10 +8,22 @@
     box-sizing: border-box;
 }
 
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
 .cabecalho img{
     display: flex;
     width: 10.4167vw;
     margin: 1.3889vh auto 1.3889vh auto;
+}
+
+.botao{
+    background-color: white;
+    color: green;
+    font-size: 2.5vw;
+    border: none;
 }
 
 .inicio .image1{
@@ -171,8 +184,16 @@
 }
 
 .rodapé{
-    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    margin-top: 5vw;
+    
     background-color: #A88D6F;
     height: 15vw;
+    font-size: 2vw;
+    font-family: 'inter';
+    color: white;
 }
