@@ -1,0 +1,33 @@
+@media screen and (max-width: 391px){
+
+    .txt-organica h1{
+        font-family: 'Source Sans Pro';
+        font-weight: 900;
+    }
+    
+    .txt-organica p{
+        font-family: 'Source Sans Pro';
+        font-size: 0px;
+        font-weight: 900;
+    }
+
+    .agriConservacao h1{
+        font-weight: 900;
+        font-size: 4.5vw;
+    }
+    
+    .txt-conservacao> p{
+        font-size: 3vw;
+        font-weight: 900;
+    }
+
+    .txt-Urbana h1{
+        font-weight: 900;
+        font-size: 4.5vw;
+    }
+
+    .txt-Urbana p{
+        font-size: 3vw;
+        font-weight: 900;
+    }
+}
