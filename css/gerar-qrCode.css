@@ -1,244 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+@import url(./break-point-qrCode.css);
 
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
 }
 
-header {
-    background-color: #0A4B11;
-    width: 99.5vw;
-}
 
-header > img {
-    width: 10vw;
-    height: 10vw;
+
+body{
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #90BF95;
 }
 
-.conteudo {
-    float: left;
+.cabecalho img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.53);
+    width: 70vw;
+    height: 50vw;
+}
+
+.txt h1{
+    margin-top: 5vw;
+    width: 18vw; 
+    height: 9vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    color: #656565
+}
+
+.txt{
     display: flex;
     flex-direction: column;
-    width: 52.08vw;
-    
+    height: 43.5vw;
 }
 
 form {
-    width: 52.08vw;
-    justify-content: center;
-    margin-top: -10vw;
-}
-
-.texto > p {
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.29vw;
-    line-height: 2.78vw;
-    color: #656565;
-    margin: 3.76vw 46.18vw 7.11vw 3.47vw;
-}
-
-.cpf {
-    width: 17.78vw;
-    height: 9.28vw;
-    margin: 7.11vw 78.75vw 2.93vw 3.47vw;
-}
-
-.cpf > label {
-    width: 13.75vw;
-    height: 2.84vw;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.37vw;
-    line-height: 2.03vw;
-    text-transform: uppercase;
-    color: #0A4B11;
-}
-
-.cpf > input {
-    box-sizing: border-box;
-    width: 17.78vw;
-    height: 2.3vw;
-    background: #FFFFFF;
-    border: 0.07vw solid #0A4B11;
-    margin-top: 1.17vw;
-}
-
-.cpf > ::placeholder {
-    width: 3.26vw;
-    height: 2.84vw;
-    padding: 0.83vw 14.02vw 0.83vw 0.48vw;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.67vw;
-    line-height: 2.03vw;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.37);
-}
-
-.alimento {
-    width: 17.78vw;
-    height: 9.14vw;
-    margin: 2.93vw 78.75vw 2.93vw 3.47vw;
-}
-
-.alimento > label {
-    width: 8.54vw;
-    height: 2.84vw;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.37vw;
-    line-height: 2.03vw;
-    text-transform: uppercase;
-    color: #0A4B11;
-}
-
-.alimento > select {
-    width: 17.78vw;
-    height: 2.3vw;
-    margin-top: 1.17vw;
-    font-size: 1.25vw;
-    background: #FFFFFF;
-    border: 0.07vw solid #0A4B11;
-    border-radius: 1.39vw;
-    margin-bottom: 4.96vw;
-}
-
-.kg {
-    width: 17.78vw;
-    height: 0.1vw;
-    margin: 2.93vw 78.75vw 2.93vw 3.47vw;
-}
-
-.kg > input {
-    width: 17.78vw;
-    height: 2.3vw;
-    background: #FFFFFF;
-    border: 0.07vw solid #0A4B11;
-    border-radius: 1.39vw;
-}
-
-.kg > label {
-    width: 2.29vw;
-    height: 2.84vw;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.37vw;
-    line-height: 2.03vw;
-    text-transform: uppercase;
-    color: #0A4B11;
-}
-
-.kg > ::placeholder {
-    width: 3.26vw;
-    height: 2.84vw;
-    padding: 0.83vw 14.02vw 0.83vw 0.48vw;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.04vw;
-    line-height: 2.03vw;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.37);
-}
-
-.botao {
     display: flex;
     flex-direction: column;
+    height: 30vw;
+}
+
+label {
+    width: 30vw;
+    height: 4vw;
+    font-size: 2vw;
+    color: #0A4B11;
     
 }
 
-.gerar {
-    width: 13.43vw;
-    height: 3.33vw;
-    background: #0A4B11;
-    border-radius: 2.78vw;
-    margin-top: 8.33vw;
-    margin-left: 3.47vw;
+input{
+    width: 12vw;
+    height: 2.5vw;
+    border: 2px solid black;
+    margin-bottom: 3vw;
 }
 
-.gerar > p {
+
+select{
+    width: 12vw;
+    height: 2.5vw;
+    border: 2px solid black;
+    margin-bottom: 2vw;
+}
+
+.gerar{
+    font-size: 2vw;
+    width: 8vw;
+    border: 2px;
+    border-radius: 2vw;
+    background-color: #0A4B11;
+    color: white;
+    margin-bottom: 1vw;
+}
+
+.doador{
+    font-size: 2vw;
+    width: 20vw;
+    border: 2px;
+    border-radius: 2vw;
+    background-color: #0A4B11;
+    color: white;
+}
+
+.imagens {
+    background-color: #90BF95;
+    border-radius: 5vw;
     display: flex;
-    width: 8.47vw;
-    height: 3.06vw;
-    margin: auto;
+    flex-direction: column; 
     justify-content: center;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5vw;
-    line-height: 3.06vw;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    align-items: center;
+    width: 20vw;
+    height: 30vw;
+    margin-top: 10.5vw;
+
 }
 
-.doador {
-    display: flex;
-    margin: auto;
-    width: 20.78vw;
-    height: 3.33vw;
-    margin-left: 3.47vw;
-    background: #0A4B11;
-    border-radius: 2.78vw;
-    margin-top: 1vw;
+.imagens img {
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vw;
+   
 }
 
-.doador > p {
-    width: 25.56vw;
-    height: 3.06vw;
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5vw;
-    line-height: 3.06vw;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-left: 0.97vw;
-}
 
-.background {
-    display: flex;
-    flex-direction: column;
-    width: 33.96vw;
-    height: 43vw;
-    margin-left: 60.56vw;
-    margin-top: -6.66vw;
-    background: #C3DECC;
-    border-radius: 10vw;
-}
-
-.qr-code > img {
-    margin: auto;
-    height: 15vw;
-}
-
-.qr-code {
-    display: flex;
-    margin: auto;
-}
-
-.carregando {
-    position: absolute;
-    width: 23.75vw;
-    height: 1.17vw;
-    margin: 32.84vw 5.07vw 28.52vw 5.13vw;
-    background: linear-gradient(270deg, #FFFFFF 0%, #FFFFFF 28.91%, #0A4B11 29.12%, #0A4B11 100%);
-    border-radius: 0.69vw;
-}
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-image:linear-gradient(to bottom, #0A4B11, #ADFAB6);
-    margin-top: 10vw;
-    height: 15vw;
-    width: 99.5vw;
-}
