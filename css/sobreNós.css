@@ -169,9 +169,15 @@ header{
 .metasImagens img{
     width: 90vw;
 }
-.rodape{
-    margin-top: 15vw;
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #35743B;
-    height: 20vh;
-    width: 100vw;
+    margin-top: 10vw;
+    height: 15vw;
+    font-size: 2vw;
+    font-family: 'inter';
+    color: white;
 }

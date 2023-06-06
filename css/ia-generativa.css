@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+@import url(breakpoint-Iagenerativa.css);
+    
 
 *{
     margin: 0;
@@ -10,12 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vw;
-    height: 15vw;
 }
 
 .cabecalho img{
-    width: 10.48vw;
+    width: 11vw;
 }
 
 .introducao h1{
