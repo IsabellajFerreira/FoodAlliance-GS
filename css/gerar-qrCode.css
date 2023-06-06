@@ -20,8 +20,9 @@ body{
 }
 
 .cabecalho img{
-    width: 5vw;
-    height: 5vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    margin-top: 3vw;
 }
 
 .container{
@@ -96,6 +97,7 @@ select{
     border-radius: 2vw;
     background-color: #0A4B11;
     color: white;
+    margin-bottom: 2vw;
 }
 
 .imagens {
