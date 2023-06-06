@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    height: 15vw;
+}
+
+.cabecalho img{
+    width: 10.48vw;
+}
+
+.introducao h1{
+    position: absolute;
+    display: flex;
+    font-family: 'inter';
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+    width: 30vw;
+    margin-left: 65vw;
+    margin-top: 100%
+}
+
+.introducao img{
+    width: 100vw;
+}
+
+.txt1{
+    position: absolute;
+    display: flex;
+    font-family: 'inter';
+    color: white;
+    font-size: 1.8vw;
+    margin-top: 5%;
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+.txt2{
+    position: absolute;
+    display: flex;
+    font-family: 'inter';
+    color: white;
+    font-size: 1.8vw;
+    margin-top: 55%;
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+.intro2 img{
+    width: 100vw;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vw;
+    font-family: 'inter';
+    color: #01287A;
+    font-size: 1.5vw;
+}
+
+.filmes{
+    display: flex;
+}
+
+.filmes img{
+    width: 43.1944vw;
+}
+
+.textofilmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45vw;
+    margin-left: 5vw;
+}
+
+.filmes h1{
+    font-family: 'inter';
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #01287A;
+    font-size: 2.6vw;
+}
+
+.filmes p{
+    font-family: 'inter';
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #3C6AA7;
+    font-size: 2vw;
+}
+
+.saude{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5%;
+    height: 100vw;
+
+}
+
+.saude img{
+    width: 100vw;
+}
+
+.textosaude{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.saude h1{
+    font-family: 'inter';
+    color: #01287A;
+    font-size: 2.6vw;
+}
+
+.saude p{
+    font-family: 'inter';
+    color: #3C6AA7;
+    font-size: 2vw;
+    width: 75vw;
+}
+
+.final{
+    margin-top: 10%;
+}
+.final h1{
+    position: absolute;
+    font-family: 'inter';
+    font-size: 2.3vw;
+    text-align: center;
+    color: white;
+    width: 75vw;
+    margin-left: 12vw;
+    margin-top: 25vw;
+}
+
+.final img{
+    width: 100vw;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(1,40,122,1) 0%, rgba(100,148,197,1) 51%, rgba(255,255,255,1) 100%);
+    height: 15vw;
+    font-size: 2vw;
+    font-family: 'inter';
+    color: #01287A;
+}
