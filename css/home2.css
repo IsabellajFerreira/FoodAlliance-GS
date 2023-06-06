@@ -54,6 +54,13 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.cabecalho-nav-home2 a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
 .conteudo-home2{
     display: flex;
     text-align: center;

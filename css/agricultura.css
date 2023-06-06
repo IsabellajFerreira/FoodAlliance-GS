@@ -19,13 +19,6 @@
     margin: 1.3889vh auto 1.3889vh auto;
 }
 
-.botao{
-    background-color: white;
-    color: green;
-    font-size: 2.5vw;
-    border: none;
-}
-
 .inicio .image1{
     width: 100vw;
 }
@@ -183,7 +176,7 @@
     margin-top: 3vw;
 }
 
-.rodapé{
+.rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
