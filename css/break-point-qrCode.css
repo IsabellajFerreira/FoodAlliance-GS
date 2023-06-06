@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+    
+     input{
+        padding-right: 6rem;
+        padding-left: 2rem;
+    }
+   
+}
+
+@media screen and (max-width: 730px) {
+    
+     input{
+        padding-right: 2rem;
+        padding-left: 4rem;
+    }
+}
+    
+@media screen and (max-width: 575px) {
+
+    input{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    
+}
