@@ -175,6 +175,46 @@ header{
 .metasImagens img{
     width: 90vw;
 }
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'inter';
+    max-width: 600px;
+    margin: 1.2vw auto;
+  }
+
+.container-form h1{
+    color: #0A4B11;
+}
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 65vw;
+    padding: 1vw;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
 .rodape {
     display: flex;
     flex-direction: column;
