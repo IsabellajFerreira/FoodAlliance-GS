@@ -278,6 +278,11 @@ body{
     margin-bottom: 10%;
 }
 
+.botao-ver-mais a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .botao-ver-mais button{
     background-color: #60BE4D;
     border: solid 5px #35743B;
