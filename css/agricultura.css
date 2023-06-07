@@ -10,13 +10,32 @@
 
 .cabecalho{
     display: flex;
-    flex-direction: row;
-    width: 90vw;
+    align-items: center;
 }
-.cabecalho img{
+
+.voltar{
     display: flex;
-    width: 10.4167vw;
-    margin: 1.3889vh auto 1.3889vh auto;
+    text-align: left;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.logo img{
+    width: 11vw;
+}
+
+.voltar h2{
+    font-family: 'inter';
+    color: #614501;
+}
+
+.voltar a{
+    text-decoration: none;
 }
 
 .inicio .image1{

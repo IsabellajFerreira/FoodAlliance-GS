@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
+@import url(breakpoint-Iagenerativa.css);
+    
 
 *{
     margin: 0;
@@ -8,14 +10,32 @@
 
 .cabecalho{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100vw;
-    height: 15vw;
 }
 
-.cabecalho img{
-    width: 10.48vw;
+.voltar{
+    display: flex;
+    text-align: left;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.logo img{
+    width: 11vw;
+}
+
+.voltar h2{
+    font-family: 'inter';
+    color: #01287A;
+}
+
+.voltar a{
+    text-decoration: none;
 }
 
 .introducao h1{
