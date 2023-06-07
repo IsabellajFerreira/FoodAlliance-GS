@@ -1,3 +1,4 @@
+@import url(./break-point-empresas.css);
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@700&display=swap');
 
 *{
@@ -12,13 +13,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #90BF95;
 }
 
-.cabecalho>img{
-    width: 10vw;
-    height: 10vw;
+.cabecalho img{
+    width: 7.5vw;
+    height: 7.5vw;
 }
 .container{
     display: flex;
@@ -69,5 +70,6 @@ body{
 .par-2 img{
     width: 15vw;
     height: 15vw;
-    border: 1px solid #000;
+    border: 0.2px solid #6B806D;
 }
+
