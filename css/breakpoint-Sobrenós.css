@@ -11,10 +11,6 @@
 }
 
 @media (max-width: 500px) {
-    .conteudo p{
-        font-weight: 900;
-    }
-
     .nomes h1{
         font-size: 12px;
     }

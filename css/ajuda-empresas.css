@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fauna+One&family=Inter:wght@500&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.voltar{
+    display: flex;
+    text-align: left;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.logo img{
+    width: 11vw;
+}
+
+.voltar h2{
+    font-family: 'inter';
+    color: #01287A;
+    font-size: 1.9vw;
+}
+
+.voltar a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+    height: 20vw;
+}
+
+.texto h1{
+    font-size: 2vw;
+    color: #01284F;
+}
+
+.texto p{
+    font-size: 1.5vw;
+}
+
+.gpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vw;
+}
+
+.gpt input{
+    width: 70vw;
+    height: 8vw;
+}
+
+.gpt button{
+    color: white;
+    background-color: #01287A;
+    font-size: 2vw;
+    width: 12vw;
+    height: 3vw;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vw;
+    
+    background-color: #01287A;
+    height: 15vw;
+    font-size: 2vw;
+    font-family: 'inter';
+    color: white;
+}

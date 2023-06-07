@@ -13,6 +13,12 @@ header{
     justify-content: space-around;
 }
 
+.cabecalho-nav a{
+    text-decoration: none;
+    list-style: none;
+    color: #0A4B11;
+}
+
 .cabecalho{
     display: flex;
     margin-top: 3vw;
